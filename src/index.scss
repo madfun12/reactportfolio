@@ -1,0 +1,50 @@
+  
+$font: input-mono,monospace;
+
+body {
+  margin: 0;
+  background: linear-gradient(90deg, rgb(30, 43, 65),rgb(23, 58, 68));
+  min-height: 100vh;
+  font-family: input-mono,monospace;
+  font-weight: 400;
+  font-style: normal;
+
+  .console{
+    padding: 20px;
+
+    h5{
+      color: rgba(255, 232, 127, 1);
+      font-size: 0.9rem;
+    }
+
+    h1{
+      color: #ff9100c9;
+      line-height: 0.5;
+      font-size: 1rem;
+    }
+    .console-input-box{
+      display: flex;
+      align-items: center;
+      
+      p{
+        font-size: 0.8rem;
+        padding: 20px;
+      }
+
+      input{
+        height: fit-content;
+        background: transparent;
+        border: none;
+        margin-left: -20px;
+        outline: none;
+        color: white;
+        font-family: $font;
+      }
+    }
+    
+  }
+}
+
+.green{
+  color: rgb(50, 240, 98);
+}
