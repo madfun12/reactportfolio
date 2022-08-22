@@ -8,6 +8,7 @@ export default function Response(props){
         "projects     view my projects",
         "contact      contact me",
         "blogs        view my blog posts",
+        "resume       view my resume",
         "clear        clear the console"
     ]
 
@@ -69,6 +70,15 @@ export default function Response(props){
         )
     }else if(props.response === "clear"){
         window.location.reload(false)
+    }else if(props.response === "resume"){
+        return(
+            <>
+                <div className="response">
+                    <a href="./resume.pdf" target="_blank" rel="noreferrer">resume</a>
+                </div>
+                <Input />
+            </>
+        )
     }else{
         return(
             <>
