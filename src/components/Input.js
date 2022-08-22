@@ -14,7 +14,7 @@ export default function Input(props){
     
     function collectInput(event){
         event.preventDefault()
-        setResponse(input)
+        setResponse(input.toLowerCase())
         setSubmitted(true)
     }
       
