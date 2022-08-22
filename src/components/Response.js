@@ -6,8 +6,9 @@ export default function Response(props){
     const help = [
         "about        learn about me",
         "projects     view my projects",
+        "contact      contact me",
         "blogs        view my blog posts",
-        "contact      contact me"
+        "clear        clear the console"
     ]
 
     if(props.response === "help"){
@@ -41,8 +42,8 @@ export default function Response(props){
             <>
                 <div className="response">
                     <a href="https://github.com/madfun12" target="_blank" rel="noreferrer">View my github</a><br/>
-                    <p><a href="./tensies/index.html">./tensiesgame</a> A game where you roll some die</p>
-                    <p><a href="./trivia/index.html">./triviagame</a> A 5 question trivia game</p>
+                    <p><a href="./tensies/index.html" target="_blank" rel="noreferrer">./tensiesgame</a> A game where you roll some die</p>
+                    <p><a href="./trivia/index.html" target="_blank" rel="noreferrer">./triviagame</a> A 5 question trivia game</p>
                 </div>
                 <Input />
             </>
@@ -61,7 +62,18 @@ export default function Response(props){
         return(
             <>
                 <div className="response">
-                    <a href=""></a>
+                    <p>working on refactoring them to fit the new site. please be patient</p>
+                </div>
+                <Input />
+            </>
+        )
+    }else if(props.response === "clear"){
+        window.location.reload(false)
+    }else{
+        return(
+            <>
+                <div className="response">
+                    <p className="warning">input not recognized. please enter 'help' for a list of commands.</p>
                 </div>
                 <Input />
             </>
