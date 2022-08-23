@@ -63,7 +63,8 @@ export default function Response(props){
         return(
             <>
                 <div className="response">
-                    <p>working on refactoring them to fit the new site. please be patient</p>
+                    <a href="./blogs/892022.html">../blogs/"Building the GehrIC Customer Portal"</a><br />
+                    <a href="./blogs/sassandreact.html">../blogs/"Installing Sass in React"</a>
                 </div>
                 <Input />
             </>
