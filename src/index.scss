@@ -15,6 +15,10 @@ body {
   .console{
     padding: 20px;
 
+    .mobile-intro{
+      display: none;
+    }
+
     h5{
       font-size: 0.9rem;
       font-weight: 200;
@@ -80,6 +84,14 @@ body{
   
   .console{
     padding: 5px;
+
+    .desktop-intro{
+      display: none;
+    }
+
+    .mobile-intro{
+      display: block;
+    }
     
     h5{
       font-size: 0.6rem;
@@ -90,7 +102,7 @@ body{
     }
 
     h3{
-      font-size: 0.27rem;
+      font-size: 0.8rem;
     }
 
     .console-input-box{
