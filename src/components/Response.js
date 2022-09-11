@@ -43,8 +43,8 @@ export default function Response(props){
             <>
                 <div className="response">
                     <a href="https://github.com/madfun12" target="_blank" rel="noreferrer">View my github</a><br/>
-                    <p><a href="./tensies/index.html" target="_blank" rel="noreferrer">./tensiesgame</a> A game where you roll some die</p>
-                    <p><a href="./trivia/index.html" target="_blank" rel="noreferrer">./triviagame</a> A 5 question trivia game</p>
+                    <p><a href="https://madisonfunderburk.com/tensies/index.html" target="_blank" rel="noreferrer">./tensiesgame</a> A game where you roll some die</p>
+                    <p><a href="https://madisonfunderburk.com/trivia/index.html" target="_blank" rel="noreferrer">./triviagame</a> A 5 question trivia game</p>
                 </div>
                 <Input />
             </>
